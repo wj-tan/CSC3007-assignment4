@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSC3007 Assignment 4</title>
 </head>
+
 <body>
-    <h1>TEST</h1>
+    <button id="group1">Group by Vacinnated Status</button>
+
+    <div id="wrapper1">
+        <div id="div1" style="width:25px;height:10px;border:1px solid steelblue; background-color: steelblue;"></div>
+        <div id="div2">Male</div>
+    </div>
+
+    <div id="wrapper2">
+        <div id="div3" style="width:25px;height:10px;border:1px solid pink; background-color: pink;"></div>
+        <div id="div4">Female</div>
+    </div>
+
+    <div>
+        <svg>
+        </svg>
+    </div>
+
+
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v7.js"></script>
+
+    <!-- Create a div where the graph will take place -->
+    <div class="tooltip"></div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
